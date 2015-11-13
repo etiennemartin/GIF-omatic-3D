@@ -12,7 +12,7 @@
 		3B3CE8511BF6340F009296D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CE84F1BF6340F009296D8 /* Main.storyboard */; };
 		3B3CE8531BF6340F009296D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CE8521BF6340F009296D8 /* Assets.xcassets */; };
 		3B3CE8561BF6340F009296D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CE8541BF6340F009296D8 /* LaunchScreen.storyboard */; };
-		3B62F3611BF63B4A003D3C95 /* blueprint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B62F3601BF63B4A003D3C95 /* blueprint.jpg */; };
+		3B5DF5341BF6802E006294AB /* blueprint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B5DF5331BF6802E006294AB /* blueprint.jpg */; };
 		3B62F3631BF6434D003D3C95 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B62F3621BF6434D003D3C95 /* ActionViewController.swift */; };
 		3B9632191BF651F9002CECAB /* gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B9632161BF651F9002CECAB /* gif1.gif */; };
 		3B96321A1BF651F9002CECAB /* gif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B9632171BF651F9002CECAB /* gif2.gif */; };
@@ -28,7 +28,7 @@
 		3B3CE8521BF6340F009296D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3CE8551BF6340F009296D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B3CE8571BF6340F009296D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B62F3601BF63B4A003D3C95 /* blueprint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueprint.jpg; path = ../../../../Desktop/blueprint.jpg; sourceTree = "<group>"; };
+		3B5DF5331BF6802E006294AB /* blueprint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueprint.jpg; sourceTree = "<group>"; };
 		3B62F3621BF6434D003D3C95 /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		3B9632161BF651F9002CECAB /* gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif1.gif; sourceTree = "<group>"; };
 		3B9632171BF651F9002CECAB /* gif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif2.gif; sourceTree = "<group>"; };
@@ -71,19 +71,27 @@
 		3B3CE84A1BF6340F009296D8 /* GIF-omatic-3D */ = {
 			isa = PBXGroup;
 			children = (
-				3B9632161BF651F9002CECAB /* gif1.gif */,
-				3B96321C1BF664CD002CECAB /* gifForce.gif */,
-				3B9632171BF651F9002CECAB /* gif2.gif */,
+				3B5DF5351BF6804E006294AB /* images */,
 				3B3CE84B1BF6340F009296D8 /* AppDelegate.swift */,
 				3B62F3621BF6434D003D3C95 /* ActionViewController.swift */,
 				3B3CE84D1BF6340F009296D8 /* ViewController.swift */,
 				3B3CE84F1BF6340F009296D8 /* Main.storyboard */,
 				3B3CE8521BF6340F009296D8 /* Assets.xcassets */,
-				3B62F3601BF63B4A003D3C95 /* blueprint.jpg */,
 				3B3CE8541BF6340F009296D8 /* LaunchScreen.storyboard */,
 				3B3CE8571BF6340F009296D8 /* Info.plist */,
 			);
 			path = "GIF-omatic-3D";
+			sourceTree = "<group>";
+		};
+		3B5DF5351BF6804E006294AB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3B96321C1BF664CD002CECAB /* gifForce.gif */,
+				3B9632161BF651F9002CECAB /* gif1.gif */,
+				3B9632171BF651F9002CECAB /* gif2.gif */,
+				3B5DF5331BF6802E006294AB /* blueprint.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 		4AEE745209C7E5836E684E60 /* Pods */ = {
@@ -165,8 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B3CE8561BF6340F009296D8 /* LaunchScreen.storyboard in Resources */,
-				3B62F3611BF63B4A003D3C95 /* blueprint.jpg in Resources */,
 				3B9632191BF651F9002CECAB /* gif1.gif in Resources */,
+				3B5DF5341BF6802E006294AB /* blueprint.jpg in Resources */,
 				3B3CE8531BF6340F009296D8 /* Assets.xcassets in Resources */,
 				3B96321A1BF651F9002CECAB /* gif2.gif in Resources */,
 				3B3CE8511BF6340F009296D8 /* Main.storyboard in Resources */,
